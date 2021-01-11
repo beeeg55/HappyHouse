@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.happyhouse.model.dao.NoticeDao">
+	<insert id="writeArticle" parameterType="NoticeDto" useGeneratedKeys="true" keyProperty="id">
+		insert into notice(title, des)
+		values(#{title},#{des})
+	</insert>
+	
+	<update id="modifyArticle" parameterType="NoticeDto">
+		update 	notice 
+		set 	des = #{des},
+				date = now()
+		where 	id = #{id}
+	</update>
+	
+	<delete id="deleteArticle" parameterType="int">
+		delete 	from notice
+		where 	id = #{id}
+	</delete>
+	
+	<select id="getArticle" parameterType="int" resultType="NoticeDto">
+		select 	id, title, des, DATE_FORMAT(date, '%Y-%m-%d %H:%i:%s') as date
+		from	notice
+		where	id = #{value}
+	</select>
+	
+	<select id="listArticle" resultType="NoticeDto">
+		select 	id, title, des, DATE_FORMAT(date, '%Y-%m-%d %H:%i:%s') as date
+		from	notice
+	</select>	
+</mapper>

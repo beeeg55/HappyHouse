@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.model.dao.UserDAO">
+	<select id="selectUserByName" parameterType="String" resultType="User">
+		select userid,userpwd,username,email,interest,joindate,useage
+		from user 
+		where username like #{username} and useage = '0'
+	</select>
+	
+	<select id="selectOneUserById" parameterType="String" resultType="User">
+		select userid,userpwd,username,email,interest,joindate,useage 
+		from user 
+		where userid like #{userid}
+	</select>
+	
+	<select id="selectUsers" resultType="User">
+		select userid,userpwd,username,email,interest,joindate ,useage
+		from user 
+		where useage = 0
+	</select>
+	
+	<select id="selectUser" parameterType="map" resultType="User">
+		select userid,userpwd,username,email,interest,joindate ,useage
+		from user 
+		where  userid= #{userid} and userpwd =#{userpwd}
+	</select>
+	
+	<insert id="insert" parameterType="User">
+		insert into user(userid,userpwd,username,email,useage,interest) 
+		values(#{userid},#{userpwd},#{username},#{email},#{useage},#{interest})
+	</insert>
+	
+	<select id="selectUserById" parameterType="String" resultType="User">
+		select userid,userpwd,username,email,interest,joindate ,useage
+		from user 
+		where  userid= #{userid}
+	</select>
+	
+	<update id="update" parameterType="User">
+		update user 
+		set userpwd=#{userpwd},username=#{username},email=#{email},interest=#{interest} 
+		where userid=#{userid}
+	</update>
+	
+	<update id="updateUseage" parameterType="map">
+		update user 
+		set useage=#{useage} 
+		where userid=#{userid}
+	</update>
+	
+	<insert id="insertInterest" parameterType="map">
+		insert into user_interest(id,interest) 
+		values(#{id},#{interest})
+	</insert>
+	
+	<select id="selectInterest" parameterType="String" resultType="String">
+		select interest 
+		from user_interest 
+		where id=#{id}
+	</select>
+	
+	<delete id="deleteInterest" parameterType="map">
+		delete from user_interest 
+		where interest = #{interest} and id = #{id}
+	</delete>
+</mapper>

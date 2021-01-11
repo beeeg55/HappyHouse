@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.model.dao.BizInfoDao">
+	<select id="getLarge" resultType="BizCategoryDto">
+		SELECT	left(large_code,1) largeCode, large_name largeName 
+		FROM 	large_category 
+		ORDER 	BY largeCode
+	</select>	
+	
+	<select id="getMidInLarge" parameterType="String" resultType="BizCategoryDto">
+		SELECT 	left(mid_code,3) midCode, mid_name midName 
+		FROM 	mid_category
+		where 	left(mid_code,1) = #{value}
+		ORDER BY midCode
+	</select>
+	
+	<select id="getSmallInMid" parameterType="String" resultType="BizCategoryDto">
+		SELECT	small_code smallCode,small_name smallName 
+		FROM 	small_category
+		where	left(small_code,3) = #{value}
+		ORDER BY small_code
+	</select>
+
+	<select id="getBizList" parameterType="Map" resultType="BizInfoDto">
+		select 	biz_id, biz_name,branch_name, std_name, dong_name, lng, lat 
+		from 	bizinfo
+		where 	dong_name = #{dong_name} and small_code = #{small_code}
+		ORDER BY small_code
+	</select>
+</mapper>

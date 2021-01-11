@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.model.dao.HouseMapDao">
+	<select id="getSido" resultType="SidoGugunCodeDto">
+		SELECT 	left(sido_code,2) sidoCode, sido_name sidoName 
+		FROM 	sidocode
+		ORDER 	BY sidoCode
+
+	</select>
+	
+	<select id="getGugunInSido" parameterType="String" resultType="SidoGugunCodeDto">
+		SELECT 	left(gugun_code,5) gugunCode, gugun_name gugunName
+		FROM 	guguncode
+		where left(gugun_code,2) = #{value}
+		ORDER BY gugunCode
+	</select>
+	
+	<select id="getDongInGugun" parameterType="String" resultType="HouseInfoDto">
+		SELECT 	distinct dong, code
+		FROM 	houseinfo
+		where 	code = #{value}
+		ORDER 	BY dong
+	</select>
+	
+	<select id="getAptInDong" parameterType="String" resultType="HouseInfoDto">
+		SELECT 	no,dong,aptName,code,jibun
+		FROM 	houseinfo
+		WHERE 	dong = #{value}
+		ORDER 	BY AptName
+	</select>
+	
+	<select id="getAptByName" parameterType="String" resultType="HouseInfoDto">
+		SELECT 	no,dong,aptName,code,jibun
+		FROM 	houseinfo
+		WHERE	aptName like #{value}
+		ORDER 	BY aptName
+	</select>
+	
+	<select id="getAptDetail" parameterType="Map" resultType="HouseDealDto">
+		SELECT 	no,dong,aptName,code,dealAmount
+		FROM 	housedeal
+		WHERE 	aptName=#{aptName} and dong=#{dong}
+		ORDER 	BY dealAmount
+	</select>
+	
+	<select id="getAptByDong" resultType="HouseDealDto">
+		SELECT 	no,dong,aptName,code,dealAmount
+		FROM 	housedeal
+		WHERE 	dong like #{dong}
+		ORDER 	BY dealAmount
+	</select>
+	
+	<select id="getSidoGugunName" parameterType="String" resultType="SidoGugunCodeDto">
+		SELECT city sidoName, gugun gugunName, dong dongName
+		FROM 	dongcode
+		where dongcode LIKE #{value}
+	</select>
+	
+	
+</mapper>

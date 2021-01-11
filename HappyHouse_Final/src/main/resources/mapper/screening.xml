@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.model.dao.ScreeningDao">
+	<select id="getScreeningInGugun" parameterType="String" resultType="ScreeningDto">
+		select no, possible, sido, gugun, name, address, weektime, sattime, tel
+		from screening_center
+		where gugun = #{gugun}
+		order by name
+	</select>
+	
+	<select id="getScreeningByName" parameterType="String" resultType="ScreeningDto">
+		select no, possible, sido, gugun, name, address, weektime, sattime, tel
+		from screening_center
+		where name = #{screeningName}
+		order by name
+	</select>
+</mapper>
