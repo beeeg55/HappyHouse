@@ -4,50 +4,7 @@
 
 * 개요: 주택 거래정보 조회 사이트
 
-* 사용기술: HTML, CSS, JavaScript, Jquery, MySQL/ Bootstrap, Google GeoCoding API, GmailSender
-
-* 제작: 김단비, 오성
-
-* 역할
-
-  * 오성
-
-    * 1) 메인 페이지
-
-      * Google GeoCoding API
-
-    * 2) 실거래가 검색/결과 
-
-      * Google GeoCoding API
-
-    * 3) 비밀번호 찾기
-
-      * GmailSender
-
-    * 4) 사이트맵 페이지
-
-    * 5) 안심병원 정보조회
-
-    * 6) 선별진료소 정보조회
-
-      
-
-  * 이지운
-
-    * 1) 로그인, 로그아웃
-
-    * 2) 회원관리 페이지
-
-    * 3) 관심지역 페이지
-
-    * 4) 관심지역 상권정보 조회
-
-      
-
-<hr/>
-
-
-
+* 사용기술: HTML, CSS, JavaScript, Jquery, MySQL/ Bootstrap, Google GeoCoding API, GmailSender, SpringBoot
 
 
 ### 1. 프로젝트 구조
@@ -59,8 +16,12 @@
     * controller
 
       * HappyMapController.java
-      * UserServlet.java
-      * BizInfoServlet.java
+      * UserController.java
+      * BizInfoController.java
+      * NoticeController.java
+      * ScreeningController.java
+      * SitemapController.java
+      * SmartSearchController.java
 
     * model.dto
 
@@ -68,7 +29,10 @@
       * HouseInfoDto.java
       * SidoGugunCodeDto.java
       * User.java
+      * UserInterestDto.java
+      * Hospital.java
       * HospitalDto.java
+      * NoticeDto.java
       * ScreeningDto.java
       * BizCategoryDto.java
       * BizInfoDto.java
@@ -80,8 +44,9 @@
       * UserDAOImpl.java
       * HospitalDao.java
       * HospitalDaoImpl.java
+      * NoticeDao.java
+      * NoticeDaoImpl.java
       * ScreeningDao.java
-      * ScreeningDaoImpl.java
       * BizInfoDao.java
       * BizInfoDaoImpl.java
 
@@ -96,6 +61,8 @@
       * ScreeningServiceImpl.java
       * BizInfoService.java
       * BizInfoServiceImpl.java
+      * NoticeService.java
+      * NoticeServiceImpl.java
 
     * util
 
@@ -124,7 +91,8 @@
   * 04_notice
 
     * notice.jsp
-
+    * noticeDetail.jsp
+    
   * 05_userlist
 
     * userlist.jsp
@@ -132,6 +100,11 @@
   * 06_sitemap
 
     * sitemap.jsp
+    
+  * 07_smartsearch
+
+    * smartsearch.jsp
+    
 
   * common
 
