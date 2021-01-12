@@ -583,6 +583,7 @@
   + 사이트맵: 전체 사이트 구성을 보여주고 클릭 시 Navigation 기능을 제공합니다. 
 
     <img src="https://lab.ssafy.com/jiunlee97/happyhouseWebBackEnd/uploads/cd2fa3c9f1a4e2bd70201ea2f694b13e/%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A7%B5.JPG" width=1000px >
+    <img src="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A7%B5.png?raw=true" width=1000px >
 
     
 
