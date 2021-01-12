@@ -80,11 +80,13 @@ html, body {
 </head>
 <body>
 	<jsp:include page="/WEB-INF/views/common/topbar.jsp"></jsp:include>
+	<section class="container">
 	<div class="container-fluid" style="margin-top: 30px">
 		<div class="row" style="height: 900px;">
 			<div class="col-sm-12">
+				<br/><h3>실거래가</h3>
+				<section id="index_section" class="form-inline">
 				
-				<section id="index_section" class="form-inline" style="margin-left: 30%;">
 				<script>
 				let colorArr = ['table-primary','table-success','table-danger'];
 				$(document).ready(function(){
@@ -194,7 +196,8 @@ html, body {
 				}
 			
 				</script>
-					<button class="blue whiteFont" style="font-weight: bold; border-radius: 50px; background-color: #00519e; color: white;">실거래가</button>
+					<br/>
+<!-- 					<button class="blue whiteFont" style="font-weight: bold; border-radius: 50px; background-color: #00519e; color: white;">실거래가</button> -->
 					<input type="text" placeholder="아파트이름" id="aptName" name="aptName" class="form-control">
 					<input type="button" id="aptNameBtn" class="form-control" value="검색" onclick="searchByName()">
 					
@@ -212,6 +215,7 @@ html, body {
 			</div>
 		</div>
 	</div>
+	</section>
 
 	<div class="jumbotron text-center" style="margin-bottom: 0">
 		<p>HappyHouse</p>

@@ -119,7 +119,7 @@ html, body {
 				<section id="index_section" class="form-inline">
 					<%-- <form action="${pageContext.request.contextPath}/map" class="form-inline" style="margin-left: 30%;"> --%>
 					<script>
-				let colorArr = ['table-light','table-warning'];
+				let colorArr = ['table-warning','table-warning'];
 				$(document).ready(function(){
 					$.get("${pageContext.request.contextPath}/search/sido"
 						,function(data, status){
@@ -187,7 +187,7 @@ html, body {
 							,function(data, status){
 								$("#searchResult").empty();
 								$.each(data, function(index, vo) {
-									let str = "<tr class="+colorArr[index%2]+">"
+									let str = "<tr class= table-warning>"
 									+ "<td>" + vo.no + "</td>"
 									+ "<td>" + vo.dong + "</td>"
 									+ "<td>" + vo.aptName + "</td>"
