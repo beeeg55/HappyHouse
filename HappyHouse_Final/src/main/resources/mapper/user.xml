@@ -29,7 +29,7 @@
 	
 	<insert id="insert" parameterType="User">
 		insert into user(userid,userpwd,username,email,useage,interest) 
-		values(#{userid},#{userpwd},#{username},#{email},#{useage},#{interest})
+		values(#{userid},#{userpwd},#{username},#{email},0,#{interest})
 	</insert>
 	
 	<select id="selectUserById" parameterType="String" resultType="User">

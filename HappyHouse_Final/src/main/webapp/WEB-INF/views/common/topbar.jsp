@@ -348,7 +348,7 @@ $(document).ready(function () {
 
 					<div class="form-group form-inline justify-content-between">
 						<label for="makeName">이름</label> <input name="name" type="text"
-							class="form-control" id="makeName" placeholder="아이디">
+							class="form-control" id="makeName" placeholder="이름">
 					</div>
 					<div class="form-group form-inline justify-content-between">
 						<label for="makeEmail">이메일</label> <input name="email" type="text"
