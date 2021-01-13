@@ -76,9 +76,9 @@
 
 * WebContent (Front_End)
 
-  * index.jsp
+  * index.jsp : 메인 페이지 
 
-  * 01_search
+  * 01_search : 실거래가 검색 
 
     * search.jsp
 
@@ -86,24 +86,24 @@
 
     * surround.jsp
 
-  * 03_interest
+  * 03_interest : 관심지역 주변상권 조회 
 
     * interest.jsp
 
-  * 04_notice
+  * 04_notice : 공지사항 
 
     * notice.jsp
     * noticeDetail.jsp
     
-  * 05_userlist
+  * 05_userlist : 회원 관리 
 
     * userlist.jsp
 
-  * 06_sitemap
+  * 06_sitemap : 사이트맵
 
     * sitemap.jsp
     
-  * 07_smartsearch
+  * 07_smartsearch : 스마트 조회 
 
     * smartsearch.jsp
     
