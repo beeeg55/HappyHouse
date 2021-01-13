@@ -280,7 +280,7 @@
 
     + 이름으로 검색
 
-      ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/44195636/95732724-19baf580-0cbc-11eb-8492-23f680c93e59.gif)
+      ![ezgif com-video-to-gif](https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EC%8B%A4%EA%B1%B0%EB%9E%98%EA%B0%80%20%EC%9D%B4%EB%A6%84%EC%9C%BC%EB%A1%9C%20%EA%B2%80%EC%83%89.gif?raw=true)
 
 
 ​      
