@@ -343,7 +343,7 @@
 
     + 삭제 버튼으로 삭제
 
-      <img src="https://lab.ssafy.com/jiunlee97/test/uploads/10c21d3923274d9b8e5abab6b8bc1149/%EA%B4%80%EC%8B%AC%EC%A7%80%EC%97%AD_%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EA%B2%80%EC%83%89.JPG" width="1000px"/>
+      ![ezgif com-video-to-gif](https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/산출물/스크린샷/관심지역%20삭제.gif?raw=true)
 
     + 삭제전 화면
 
@@ -445,12 +445,6 @@
     - 등록: 관리자가 회원을 등록합니다.
 
       - 등록 화면
-
-      <img src="https://lab.ssafy.com/jiunlee97/happyhouseWebBackEnd/uploads/6e2ab4ea9713be5b848ab0be286485ad/%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC_%EB%93%B1%EB%A1%9D.JPG" width="1000px">
-
-      
-
-    - 등록 결과
 
       ![ezgif com-video-to-gif-4](https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%9A%8C%EC%9B%90%EB%93%B1%EB%A1%9D.gif?raw=true)
 
