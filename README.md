@@ -409,13 +409,13 @@
 
     + 특정회원조회 : 이름으로 회원을 검색합니다.
 
-      ![ezgif com-video-to-gif-4](https://user-images.githubusercontent.com/44195636/95734994-3278da80-0cbf-11eb-8fee-3884c8a78c26.gif)
+      ![ezgif com-video-to-gif-4](https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%8A%B9%EC%A0%95%ED%9A%8C%EC%9B%90%20%EC%A1%B0%ED%9A%8C.gif?raw=true)
 
       
 
     + 상세정보 조회: 선택한 회원의 정보를 조회할 수 있습니다. (마우스 클릭)
 
-      ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/44195636/95735132-6522d300-0cbf-11eb-85bb-e41d5e19d99f.gif)
+      ![ezgif com-video-to-gif](https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%9A%8C%EC%9B%90%20%EC%83%81%EC%84%B8%EC%A0%95%EB%B3%B4%20%EC%A1%B0%ED%9A%8C.gif?raw=true)
 
       
 
