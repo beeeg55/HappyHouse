@@ -276,7 +276,7 @@
 
     + 지역으로 검색
 
-      ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/44195636/95732395-a913d900-0cbb-11eb-8e0b-da2e73b5d220.gif)
+      ![ezgif com-video-to-gif](https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EC%8B%A4%EA%B1%B0%EB%9E%98%EA%B0%80%20%EC%A7%80%EC%97%AD%EC%9C%BC%EB%A1%9C%20%EA%B2%80%EC%83%89.gif?raw=true)
 
     + 이름으로 검색
 
@@ -301,13 +301,13 @@
 
   + **주택 검색: 주택 검색 정보를 테이블, 지도에 나타냅니다.**
 
-    ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/44195636/95733016-7cac8c80-0cbc-11eb-8644-33099d2dbd96.gif)
+    ![ezgif com-video-to-gif](https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EC%8B%A4%EA%B1%B0%EB%9E%98%EA%B0%80%20%EC%A3%BC%ED%83%9D%20%EA%B2%80%EC%83%89.gif?raw=true)
 
     
 
   + **상세 거래정보 조회:   지도에서 선택한 주택의 거래정보를 보여줍니다.**
 
-    ![ezgif com-video-to-gif-2](https://user-images.githubusercontent.com/44195636/95733274-dad96f80-0cbc-11eb-8162-5bcd7afba314.gif)
+    ![ezgif com-video-to-gif-2](https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EC%8B%A4%EA%B1%B0%EB%9E%98%EA%B0%80%20%EC%83%81%EC%84%B8%20%EA%B1%B0%EB%9E%98%EC%A0%95%EB%B3%B4%20%EC%A1%B0%ED%9A%8C.gif?raw=true)
 
   
 
@@ -361,15 +361,7 @@
 
       <img src="https://lab.ssafy.com/jiunlee97/test/uploads/7d8d0a2a6769f4106ee6b21a619090dc/%EA%B4%80%EC%8B%AC%EC%A7%80%EC%97%AD_%EC%82%AD%EC%A0%9C%EC%99%84%EB%A3%8C.JPG" width="1000px" />
 
-      
 
-  + 관심지역 상권정보 조회
-
-    + 관심지역 클릭시 해당 지역의 상권정보 조회
-
-      <img src="https://lab.ssafy.com/jiunlee97/test/uploads/10c21d3923274d9b8e5abab6b8bc1149/%EA%B4%80%EC%8B%AC%EC%A7%80%EC%97%AD_%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EA%B2%80%EC%83%89.JPG" width="1000px" />
-
-      
 
   + 상권정보 카테고리로 조회
 
@@ -398,8 +390,11 @@
 
   + 조회
 
-    ![ezgif com-video-to-gif-2](https://user-images.githubusercontent.com/44195636/95734493-7e774f80-0cbe-11eb-80d3-d47f33308496.gif)
+    <img src="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD%20%EC%83%81%EC%84%B8.png?raw=true" >
 
+   + 글 작성
+
+    <img src="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD%20%EA%B8%80%20%EC%9E%91%EC%84%B1.png?raw=true" >
     
 
 + 회원관리
@@ -408,7 +403,7 @@
 
     + 전체조회: 모든 일반 회원 정보를 조회합니다.
 
-    ![ezgif com-video-to-gif-3](https://user-images.githubusercontent.com/44195636/95734733-d0b87080-0cbe-11eb-9edd-72880fbfb1b2.gif)
+    <img src="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC%20%EC%A0%84%EC%B2%B4%EC%A1%B0%ED%9A%8C.png?raw=true" >
 
       
 
@@ -456,11 +451,7 @@
 
     + 삭제 화면 
 
-      <img src="https://lab.ssafy.com/jiunlee97/happyhouseWebBackEnd/uploads/3ab358ebc8e9de26d23f181479964d8b/%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC_%EC%83%81%EC%84%B8%EC%A0%95%EB%B3%B4%ED%99%95%EC%9D%B8.JPG" width="1000px">
-
-    + 삭제 결과
-
-      ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/44195636/95736248-efb80200-0cc0-11eb-9eaf-e2c445d89539.gif)
+      <img src="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%9A%8C%EC%9B%90%EC%A0%95%EB%B3%B4%20%EC%82%AD%EC%A0%9C.png?raw=true" width="1000px">
 
   
 
@@ -468,7 +459,7 @@
 
   + 가입 화면: 페이지 상단 회원가입 버튼을 통해 가입을 진행합니다.
 
-    <img src="https://lab.ssafy.com/jiunlee97/happyhouseWebBackEnd/uploads/c03f9758b84d841594965cdedcedc28a/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%8522.JPG" width="1000px">
+    <img src="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%9A%8C%EC%9B%90%20%EA%B0%80%EC%9E%85.png?raw=true" width="1000px">
 
 
 
