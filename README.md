@@ -6,6 +6,8 @@
 
 * 사용기술: HTML, CSS, JavaScript, Jquery, MySQL/ Bootstrap, Google GeoCoding API, GmailSender, SpringBoot
 
+* 팀원: 김단비, 오성
+
 
 ### 1. 프로젝트 구조
 
