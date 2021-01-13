@@ -269,7 +269,8 @@
 
 + 메인 페이지
 
-  <img src ="https://lab.ssafy.com/jiunlee97/happyhouseWebBackEnd/uploads/1656da4909e15e30f64d3ecffe72375b/1._%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80.png" width="1000px" />
+  <img src ="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%801.png?raw=true" width="1000px" />
+  <img src ="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%802.png?raw=true" />
 
   + **주택** **검색**: **주택 검색 결과를 지도에 마킹해 보여줍니다.**
 
@@ -294,7 +295,7 @@
 
   + 기본화면
 
-    <img src="https://lab.ssafy.com/jiunlee97/happyhouseWebBackEnd/uploads/e029c7d150e9ed5eb8d7e2b990128afa/2._%EC%8B%A4%EA%B1%B0%EB%9E%98_%ED%99%94%EB%A9%B4.png" width="1000px"/>
+    <img src="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EC%8B%A4%EA%B1%B0%EB%9E%98%EA%B0%80%20%EA%B2%80%EC%83%89.png?raw=true" width="1000px"/>
 
     
 
@@ -328,13 +329,13 @@
 
   + 관심지역
 
-    <img src ="https://lab.ssafy.com/jiunlee97/happyhouseWebBackEnd/uploads/e25d48b1957ecd42370873013d9593e5/%EA%B4%80%EC%8B%AC%EC%A7%80%EC%97%AD%EC%82%AD%EC%A0%9C_%EA%B2%B0%EA%B3%BC.JPG">
+    <img src ="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EA%B4%80%EC%8B%AC%EC%A7%80%EC%97%AD.png?raw=true">
 
     
 
   + 관심지역 추가 & 결과
 
-    ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/44195636/95733750-84b8fc00-0cbd-11eb-83e2-6aab2866b4dc.gif)
+    ![ezgif com-video-to-gif](https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EA%B4%80%EC%8B%AC%EC%A7%80%EC%97%AD%20%EC%B6%94%EA%B0%80.gif?raw=true)
 
     
 
@@ -352,7 +353,7 @@
 
     + 삭제 확인 팝업창
 
-      <img src="https://lab.ssafy.com/jiunlee97/test/uploads/058530e03cedd27e50d7f68db82d0516/%EA%B4%80%EC%8B%AC%EC%A7%80%EC%97%AD_%EC%82%AD%EC%A0%9C_%ED%8C%9D%EC%97%85.JPG" />
+      <img src="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EA%B4%80%EC%8B%AC%EC%A7%80%EC%97%AD%20%EC%82%AD%EC%A0%9C%20%ED%8C%9D%EC%97%85%EC%B0%BD.png?raw=true" />
 
       
 
@@ -380,7 +381,7 @@
 
     + 조회 결과
 
-      <img src="https://lab.ssafy.com/jiunlee97/test/uploads/10c21d3923274d9b8e5abab6b8bc1149/%EA%B4%80%EC%8B%AC%EC%A7%80%EC%97%AD_%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EA%B2%80%EC%83%89.JPG" width="1000px" />
+      <img src="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EA%B4%80%EC%8B%AC%EC%A7%80%EC%97%AD%20%EA%B2%B0%EA%B3%BC.png?raw=true" width="1000px" />
 
       
 
@@ -391,7 +392,7 @@
 
   + 화면
 
-    <img src="https://lab.ssafy.com/jiunlee97/happyhouseWebBackEnd/uploads/a5a84ef5df8a8c45f038628b3c0fab0a/4_%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD.JPG" >
+    <img src="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD.png?raw=true" >
 
   + 조회
 
@@ -451,7 +452,7 @@
 
     - 등록 결과
 
-      ![ezgif com-video-to-gif-4](https://user-images.githubusercontent.com/44195636/95738510-4ffc7300-0cc4-11eb-8543-cfead4517e5b.gif)
+      ![ezgif com-video-to-gif-4](https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%ED%9A%8C%EC%9B%90%EB%93%B1%EB%A1%9D.gif?raw=true)
 
       
 
@@ -482,7 +483,7 @@
 
     + 로그인 화면
 
-      <img src="https://lab.ssafy.com/jiunlee97/happyhouseWebBackEnd/uploads/fcc3dd341fccce0f7c6ec67af44c8df3/%EB%A1%9C%EA%B7%B8%EC%9D%B8%EC%9C%A0%EC%A0%80.JPG" width="1000px">
+      <img src="https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EB%A1%9C%EA%B7%B8%EC%9D%B8.png?raw=true" width="1000px">
 
       
 
@@ -530,7 +531,7 @@
 
     + 결과 화면 (세션 소멸)
 
-      ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/44195636/95736964-ee3b0980-0cc1-11eb-9536-56a1f26babd8.gif)
+      ![ezgif com-video-to-gif](https://github.com/beeeg55/HappyHouse/blob/master/HappyHouse_Final/res/%EC%82%B0%EC%B6%9C%EB%AC%BC/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7/%EB%A1%9C%EA%B7%B8%EC%95%84%EC%9B%83.gif?raw=true)
 
       
 
